@@ -1,0 +1,218 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body{
+ background-color: #fff; 
+}
+
+/*This relating to the navigation links at the top right*/
+
+.wrapper{
+  width: 1360px;
+  margin: auto;
+}
+
+header{
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("Skyline.jpg");
+  background-color: #000;
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.nav-area li{
+  display: inline-block;
+}
+
+.nav-area li a{
+  color: #000;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 18px;
+  text-shadow: 0 0 5px #fff;
+  font-weight: bold;
+}
+
+.nav-area li a:hover{
+  background: #333;
+  color: #ff6319;
+  text-shadow: 0 0 5px #333;
+}
+
+.logo img{
+  width: 60px;
+  float: left;
+  height: auto;
+}
+
+#FImg {
+  width:90px; 
+  height:80px;
+}
+
+.welcome-text{
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+  text-align: center;
+}
+
+.welcome-text h1{
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.welcome-text a{
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
+}
+
+.welcome-text a:hover{
+  background: #fff;
+  color: #000;
+  text-shadow: 0 0 5px #999;
+  font-weight: bold;
+}
+
+
+/*Footer*/
+.footer{
+  font-family: 'Noto Sans TC', sans-serif;
+  margin-top: 0px;
+  width: 70%;
+  padding: 100px 15%;
+  background: #333;
+  color:#fff;
+  display: inline-flex;
+}
+
+.footer div{
+  text-align: center;
+  width: 950px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-2{
+  flex-grow: 2;
+}
+
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  color: #ff6319;
+}
+
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.col-2 a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer div col-3 a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/*Featured Stops*/
+.btn{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  background-image: url(/Assets/ConeyIsland.jpg);
+}
+.btn:hover{
+  transform: translateY(-10px);
+}
+.btn1{
+    background-image: url(/Assets/coneyisland2.jpg);
+}
+.btn2{
+  background-image: url(/Assets/Wash-square.jpg);
+}
+.btn3{
+    background-image: url(/Assets/ChelseaMarket.jpg);
+}
+.btn4{
+    background-image: url(/Assets/Herald.jpg);
+}
+.btn5{
+    background-image: url(/Assets/42ndBP.jpeg);
+}
+.btn6{
+    background-image: url(/Assets/Rockerfeller.jpg);
+}
+.btn7{
+    background-image: url(/Assets/Lexington.jpg);
+}
+.btn8{
+    background-image: url(/Assets/island.jpg);
+}
+.btn9{
+    background-image: url(/Assets/jackson-heights.jpeg);
+}
+.btn10{
+    background-image: url(/Assets/foresthills.jpg);
+}
+.btn11{
+    background-image: url(/Assets/169th.jpeg);
+}
+.btn12{
+    background-image: url(/Assets/JamicaEstate.png);
+}
+
+h3{
+  color:#000;
+  text-shadow: 0 0 5px #999;
+  font-weight: bold;
+  text-align: center;
+}
+h4{
+  color:#000;
+  text-shadow: 0 0 5px #999;
+  font-weight: bold;
+  text-align: center;
+}
